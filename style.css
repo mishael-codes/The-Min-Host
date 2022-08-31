@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+:root{
+    --accent-color: #53acac;
+}
+
+*{
+    color: #dddd;
+}
+
+h1{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar-brand{
+    color: var(--accent-color);
+}
+
+.nav-link a{
+    transition: .5s;
+}
+
+.nav-link a:link{
+    color: hsl(180, 35%, 50%);
+    margin: .5rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.nav-link a:visited{
+    color: hsl(180, 20%, 50%);
+    margin: .5rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.nav-link a:hover{
+    color: #fac107;
+    margin: .5rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.hosting,
+.socials{
+    border: 2px solid var(--accent-color);
+}
+
+.aqua{
+    color: var(--accent-color);
+}
+
+li{
+    list-style-type: none
+}
+
+.lh-lg li::before{
+    content: "-> ";
+    color: var(--accent-color);
+}
+
+.btn{
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+
+.bi-linkedin{
+    color: #0072b1;
+}
+
+.bi-whatsapp{
+    color: #075e54;
+}
+
+.bi-facebook{
+    color: #4267B2;
+}
+
+.bi-instagram{
+    color: #fbad50;
+}
+
+.bi-envelope-fill{
+    color: var(--accent-color);
+}
+
+.bi-twitter{
+    color: #00acee;
+}
+
+.social:any-link{
+    cursor: pointer;
+}
